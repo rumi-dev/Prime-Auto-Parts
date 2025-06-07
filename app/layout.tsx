@@ -5,6 +5,8 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import PhoneIcon from "@/components/PhoneIcon";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +32,7 @@ export default function RootLayout({
         <div className="fixed bottom-4 left-4 z-50">
           {/* <PhoneIcon /> */}
         </div>
+        <Analytics />
       </body>
     </html>
   );
