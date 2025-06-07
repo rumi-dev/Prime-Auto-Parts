@@ -6,8 +6,8 @@ const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   secure: false,
   auth: {
-    user: "leads@autosquare.us",
-    pass: "qdsw xraw jwfj klmn",
+    user: "gowthamraajmg@gmail.com",
+    pass: "zkpa jbuc rnth tljk",
   },
 });
 
@@ -114,7 +114,9 @@ export function sendEmail(
     "</tbody></table>";
 
   const mailData = {
-    from: "UsedAutoLeads <primeautopartspro@gmail.com>",
+
+    // from: "UsedAutoLeads <primeautopartspro@gmail.com>",
+
     to: "primeautopartspro@gmail.com",
     replyTo: email,
     subject: "UAP - " + year + " - " + make + " - " + part + "- " + zip_code,
@@ -122,7 +124,9 @@ export function sendEmail(
   };
 
   const newMailData = {
-    from: "UsedAutoLeads <primeautopartspro@gmail.com>",
+
+    // from: "UsedAutoLeads <primeautopartspro@gmail.com>",
+
     to: "primeautopartspro@gmail.com",
     replyTo: email,
     subject: "UAP - " + year + " - " + make + " - " + part + "- " + zip_code,
@@ -136,14 +140,14 @@ export function sendEmail(
       } else {
         // console.log('First email sent successfully:', info.response);
         // Call second sendMail with different data
-        transporter.sendMail(newMailData, (error2, info2) => {
-          if (error2) {
-            reject(error2);
-          } else {
-            // console.log('Second email sent successfully:', info2.response);
-            resolve(info2.response);
-          }
-        });
+        // transporter.sendMail(newMailData, (error2, info2) => {
+        //   if (error2) {
+        //     reject(error2);
+        //   } else {
+        //     // console.log('Second email sent successfully:', info2.response);
+        //     resolve(info2.response);
+        //   }
+        // });
       }
     });
   });

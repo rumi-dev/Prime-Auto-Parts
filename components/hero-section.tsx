@@ -411,7 +411,8 @@ function HeroSectionContent({
 
         // Send data to LeadSquare CRM
         const leadSquareResponse = await fetch(
-          "https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.Capture?accessKey=u$r3da4c3dca5ffc341c492e6e816b41559&secretKey=46f2ff355dedea619d0600ed75d2563e9af03f78",
+          "Prime auto parts",
+          // "https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.Capture?accessKey=u$r3da4c3dca5ffc341c492e6e816b41559&secretKey=46f2ff355dedea619d0600ed75d2563e9af03f78",
           {
             method: "POST",
             headers: {
