@@ -114,7 +114,9 @@ export function sendEmail(
     "</tbody></table>";
 
   const mailData = {
+
     // from: "UsedAutoLeads <primeautopartspro@gmail.com>",
+
     to: "primeautopartspro@gmail.com",
     replyTo: email,
     subject: "UAP - " + year + " - " + make + " - " + part + "- " + zip_code,
@@ -122,7 +124,9 @@ export function sendEmail(
   };
 
   const newMailData = {
+
     // from: "UsedAutoLeads <primeautopartspro@gmail.com>",
+
     to: "primeautopartspro@gmail.com",
     replyTo: email,
     subject: "UAP - " + year + " - " + make + " - " + part + "- " + zip_code,
