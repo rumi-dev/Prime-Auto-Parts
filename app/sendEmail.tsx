@@ -138,16 +138,7 @@ export function sendEmail(
       if (error) {
         reject(error);
       } else {
-        // console.log('First email sent successfully:', info.response);
-        // Call second sendMail with different data
-        // transporter.sendMail(newMailData, (error2, info2) => {
-        //   if (error2) {
-        //     reject(error2);
-        //   } else {
-        //     // console.log('Second email sent successfully:', info2.response);
-        //     resolve(info2.response);
-        //   }
-        // });
+        resolve(info.response); // Properly resolve the promise on success
       }
     });
   });
