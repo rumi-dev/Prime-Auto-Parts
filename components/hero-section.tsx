@@ -408,7 +408,7 @@ function HeroSectionContent({
         if (!emailResponse.ok) {
           throw new Error("Sending mail failed");
         }
-
+//commitss
         // Send data to LeadSquare CRM
         const leadSquareResponse = await fetch(
           "Prime auto parts",
