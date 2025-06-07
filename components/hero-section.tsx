@@ -408,47 +408,14 @@ function HeroSectionContent({
         if (!emailResponse.ok) {
           throw new Error("Sending mail failed");
         }
-//commitss
+        //commitss
         // Send data to LeadSquare CRM
-        const leadSquareResponse = await fetch(
-          "Prime auto parts",
-          // "https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.Capture?accessKey=u$r3da4c3dca5ffc341c492e6e816b41559&secretKey=46f2ff355dedea619d0600ed75d2563e9af03f78",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify([
-              { Attribute: "FirstName", Value: name },
-              { Attribute: "EmailAddress", Value: email },
-              { Attribute: "Phone", Value: phoneNumber },
-              { Attribute: "mx_Zip", Value: zipCode },
-              { Attribute: "mx1_Year", Value: year },
-              { Attribute: "mx_Make", Value: make },
-              { Attribute: "mx_Model", Value: modelValue },
-              { Attribute: "mx_Engine_Size", Value: engineSize },
-              { Attribute: "mx_Part", Value: part },
-              { Attribute: "mx_Choose_Transmission", Value: transmission },
-              { Attribute: "mx_VIN_NUMBER", Value: "" },
-              { Attribute: "Source", Value: utmSource },
-              { Attribute: "SourceCampaign", Value: utmCampaign },
-              { Attribute: "SourceMedium", Value: utmMedium },
-              { Attribute: "SearchBy", Value: getDeviceType() },
-            ]),
-          }
-        );
+
 
         // Process responses
         const emailJson = await emailResponse.json();
 
-        if (leadSquareResponse.ok) {
-          const leadSquareJson = await leadSquareResponse.json();
-          if (leadSquareJson.Status !== "Success") {
-            console.error("LeadSquare error:", leadSquareJson);
-          }
-        } else {
-          console.error("LeadSquare API call failed");
-        }
+
 
         // Redirect on success
         if (emailJson.status === "success") {
