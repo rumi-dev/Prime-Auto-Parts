@@ -7,7 +7,7 @@ export default function SuccessPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
-      <header className="bg-white shadow-sm py-4 border-b">
+      {/* <header className="bg-white shadow-sm py-4 border-b">
         <div className="container mx-auto px-4 flex items-center">
           <Link href="/" className="flex items-center">
             <Image
@@ -19,7 +19,7 @@ export default function SuccessPage() {
             />
           </Link>
         </div>
-      </header>
+      </header> */}
 
       {/* Main Content */}
       <main className="flex-grow container mx-auto px-4 py-12 md:py-16 lg:py-20">
@@ -105,7 +105,7 @@ export default function SuccessPage() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
+      {/* <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
@@ -136,7 +136,7 @@ export default function SuccessPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }

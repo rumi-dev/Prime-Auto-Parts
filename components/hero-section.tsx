@@ -168,7 +168,7 @@ function PrivacyPolicyPopup({
 
         <div className="p-4 border-t flex justify-end">
           <button
-            onClick={onAgree}
+            onClick={onClose}
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition-colors font-medium"
           >
             I Agree
@@ -270,7 +270,10 @@ function HeroSectionContent({
   // Handle terms checkbox click to show popup
   const handleTermsCheckboxClick = (e: React.MouseEvent) => {
     e.preventDefault(); // Prevent default checkbox behavior
+    
+   
     setShowPrivacyPopup(true);
+
   };
 
   // Handle agreement from popup
@@ -712,7 +715,8 @@ function HeroSectionContent({
                       id="terms"
                       name="terms"
                       checked={termsAccepted}
-                      onChange={(e) => setTermsAccepted(e.target.checked)}
+                      onChange={(e) => 
+                        setTermsAccepted(e.target.checked)}
                       onClick={handleTermsCheckboxClick}
                       className="mt-1 h-4 w-4 rounded border-gray-300 text-red-600 focus:ring-red-500 cursor-pointer"
                     />
