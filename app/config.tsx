@@ -3015,7 +3015,7 @@ export const SEO: SeoType = {
   },
 };
 
-export const PHONE_NUMBER = "";
+export const PHONE_NUMBER = "(877)-988-8045";
 export const EMAIL_ADDRESS = "sales@partscentral.us";
 export const MAIL_TO = "mailto:sales@partscentral.us";
-export const CALL_TO = "tel:";
+export const CALL_TO = "tel:(877)-988-8045";

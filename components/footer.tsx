@@ -13,9 +13,9 @@ export default function Footer() {
             </h3>
             <div className="space-y-3">
               <p className="text-gray-300">
-                8 THE GREEN STE A DOVER,
+              2952 Stringham Way, Dublin, 
                 <br />
-                DE 19901,
+                CA 94568
                 <br />
               </p>
 
