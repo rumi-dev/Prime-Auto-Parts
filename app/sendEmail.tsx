@@ -121,7 +121,7 @@ export function sendEmail(
 
     to: "primeautopartspro@gmail.com",
     replyTo: email,
-    subject: year + " - " + make + " - " + part + "- " + zip_code,
+    subject: "Prime Auto Parts Pro" + year + " - " + make + " - " + part + "- " + zip_code,
     html: htmlBody,
   };
 
@@ -131,7 +131,7 @@ export function sendEmail(
 
     to: "primeautopartspro@gmail.com",
     replyTo: email,
-    subject:  year + " - " + make + " - " + part + "- " + zip_code,
+    subject: "Prime Auto Parts Pro" + year + " - " + make + " - " + part + "- " + zip_code,
     html: newhtmlBody,
   };
 
