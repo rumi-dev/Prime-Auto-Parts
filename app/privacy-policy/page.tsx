@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
                 Central LLC (the "Online Store" and collectively with Auto Parts
                 "we" or "us"). We are dedicated to protecting our customer's
                 privacy. Your privacy using the Website located at URL
-                https://www.partscentral.us/ ("the Site") is paramount in that
+                https://www.primeautopartspro.us/ ("the Site") is paramount in that
                 goal. Other service providers we use on the site include credit
                 card processors and shipping services.
               </p>
@@ -687,7 +687,7 @@ export default function PrivacyPolicy() {
               <p>
                 For more details, visit our full <strong>Privacy Policy</strong>{" "}
                 and <strong>Terms & Conditions</strong> at{" "}
-                <a href="https://www.partscentral.us/">Prime Auto Parts Pro Website</a>
+                <a href="https://www.primeautopartspro.us/">Prime Auto Parts Pro Website</a>
                 .
               </p>
             </div>

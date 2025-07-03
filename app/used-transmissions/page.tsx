@@ -6,9 +6,9 @@ import HeroSection from "@/components/hero-section";
 export const metadata = {
   title: "Used Transmissions for Sale | Used Car Transmissions",
   description:
-    "If you are searching for a Used Transmission, then you have reached the perfect place at Parts Central. We offer a plethora of collectibles for all your vehicle needs.",
+    "If you are searching for a Used Transmission, then you have reached the perfect place at Prime Auto Parts Pro. We offer a plethora of collectibles for all your vehicle needs.",
   alternates: {
-    canonical: "https://partscentral.us/used-transmissions",
+    canonical: "https://primeautopartspro.us/used-transmissions",
   },
 };
 
@@ -34,7 +34,7 @@ export default function UsedTransmissionsPage() {
             Transmissions
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
-            Parts Central is the ultimate destination where reliability meets
+            Prime Auto Parts Pro is the ultimate destination where reliability meets
             affordability in the world of used transmissions. If you&apos;re on
             a quest to find the perfect transmission for your vehicle without
             breaking the bank, you&apos;ve come to the right place. Our
@@ -48,7 +48,7 @@ export default function UsedTransmissionsPage() {
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
             Transmission is more than just a component; it&apos;s the heartbeat
-            of your vehicle. At Parts Central, we understand the importance of a{" "}
+            of your vehicle. At Prime Auto Parts Pro, we understand the importance of a{" "}
             <span className="font-bold">quality transmission</span> in ensuring
             your car&apos;s optimal performance. That&apos;s why we meticulously
             source and inspect each transmission in our inventory, ensuring that
@@ -76,7 +76,7 @@ export default function UsedTransmissionsPage() {
             Affordable Solutions for Every Budget
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
-            At Parts Central, we believe that everyone deserves access to
+            At Prime Auto Parts Pro, we believe that everyone deserves access to
             reliable vehicle components, regardless of their budget. That&apos;s
             why we offer competitive{" "}
             <span className="font-bold">junkyard transmission prices</span> that
@@ -118,7 +118,7 @@ export default function UsedTransmissionsPage() {
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
             Your journey to a reliable, cost-effective transmission starts with
-            Parts Central. Explore the possibilities with our junkyard
+            Prime Auto Parts Pro. Explore the possibilities with our junkyard
             transmissions for sale and discover how easy it is to find a quality
             transmission that fits your needs. With our commitment to excellence
             and customer satisfaction, you can trust us to be your go-to source
@@ -127,7 +127,7 @@ export default function UsedTransmissionsPage() {
           <p className="text-gray-700 text-[17px] mt-4">
             Ready to shift into gear? Start your search today and experience the
             difference that quality, affordability, and expertise can make in
-            your vehicle&apos;s performance. At Parts Central, we&apos;re not
+            your vehicle&apos;s performance. At Prime Auto Parts Pro, we&apos;re not
             just selling parts – we&apos;re providing peace of mind, one
             transmission at a time.
           </p>

@@ -134,7 +134,7 @@ function PrivacyPolicyPopup({
             </a>{" "}
             or visit{" "}
             <a
-              href="https://www.partscentral.us/"
+              href="https://www.primeautopartspro.us/"
               className="text-red-600 hover:underline"
             >
               Prime Auto Parts Pro Website
@@ -761,7 +761,8 @@ function HeroSectionContent({
                     for assistance. Messages and data rates may apply. Message
                     frequency will vary. For more details, visit our{" "}
                     <a
-                      href="https://www.partscentral.us/privacy-policy"
+                      // href="https://www.primeautopartspro.us/privacy-policy"
+                        href="/privacy-policy"
                       target="_blank"
                       className="text-red-600 underline"
                       rel="noreferrer"
@@ -770,7 +771,7 @@ function HeroSectionContent({
                     </a>{" "}
                     and{" "}
                     <a
-                      href="https://www.partscentral.us/terms-and-conditions"
+                      href="/terms-and-conditions"
                       target="_blank"
                       className="text-red-600 underline"
                       rel="noreferrer"

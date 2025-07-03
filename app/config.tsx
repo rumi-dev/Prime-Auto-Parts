@@ -3016,6 +3016,7 @@ export const SEO: SeoType = {
 };
 
 export const PHONE_NUMBER = "(877)-988-8045";
-export const EMAIL_ADDRESS = "sales@partscentral.us";
-export const MAIL_TO = "mailto:sales@partscentral.us";
+export const EMAIL_ADDRESS = "primeautopartspro@gmail.com";
+export const MAIL_TO = "mailto:primeautopartspro@gmail.com";
 export const CALL_TO = "tel:(877)-988-8045";
+ 

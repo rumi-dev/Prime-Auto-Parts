@@ -19,7 +19,7 @@ export default function TermsAndConditions() {
             <div className="space-y-4 text-muted-foreground">
               <p>
                 Please read these Terms of Use ("Terms", "Terms of Use")
-                carefully before using the partscentral.us website (the
+                carefully before using the primeautopartspro.us website (the
                 "Service") operated by Prime Auto Parts Pro LLP ("us", "we", or "our").
               </p>
               <p>
@@ -42,7 +42,7 @@ export default function TermsAndConditions() {
             <div className="space-y-4 text-muted-foreground px-4">
               <p>
                 The Service and its original content, features and functionality
-                are and will remain the exclusive property of partscentral.us
+                are and will remain the exclusive property of primeautopartspro.us
                 and its licensors.
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function TermsAndConditions() {
                 services that are not owned or controlled by 'Prime Auto Parts Pro' has
                 no control over, and assumes no responsibility for, the content,
                 privacy policies, or practices of any third-party web sites or
-                services. You further acknowledge and agree that partscentral.us
+                services. You further acknowledge and agree that primeautopartspro.us
                 shall not be responsible or liable, directly or indirectly, for
                 any damage or loss caused or alleged to be caused by or in
                 connection with use of or reliance on any such content, goods or
@@ -222,7 +222,7 @@ export default function TermsAndConditions() {
                 {/* 1-(888) 338-9066 */}
                 or visit{" "}
                 <a
-                  href="https://www.partscentral.us/"
+                  href="https://www.primeautopartspro.us/"
                   className="text-primary hover:underline"
                 >
                   Prime Auto Parts Pro Website
@@ -260,14 +260,14 @@ export default function TermsAndConditions() {
                 Your phone number will not be shared with third parties for
                 marketing purposes. For more information, refer to our{" "}
                 <a
-                  href="https://www.partscentral.us/privacy-policy"
+                  href="/privacy-policy"
                   className="text-primary hover:underline"
                 >
                   Privacy Policy
                 </a>{" "}
-                and{" "}
+                and{" "} 
                 <a
-                  href="https://www.partscentral.us/terms"
+                  href="/terms-and-conditions"
                   className="text-primary hover:underline"
                 >
                   Terms & Conditions
@@ -310,7 +310,7 @@ export default function TermsAndConditions() {
               <div className="pl-4 border-l-2 border-muted mt-4 space-y-3">
                 <p className="flex items-center gap-2">
                   <span className="font-medium min-w-24">Phone:</span>
-                  {/* (888) 338-9066 */}
+                  (877)-988-8045
                 </p>
                 <p className="flex items-center gap-2">
                   <span className="font-medium min-w-24">Email:</span>

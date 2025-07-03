@@ -22,7 +22,7 @@ export default function ServicesSection() {
             </div>
             <h3 className="text-2xl font-bold mb-4">90 DAY WARRANTY</h3>
             <p className="text-gray-600 mb-4">
-              We provide a warranty on most parts central type.
+              We provide a warranty on most Prime Auto Parts Pro type.
             </p>
             <p className="text-gray-600">
               We offer extended warrantees on many products at competitive
@@ -42,7 +42,7 @@ export default function ServicesSection() {
             </div>
             <h3 className="text-2xl font-bold mb-4">FREE SHIPPING</h3>
             <p className="text-gray-600 mb-4">
-              We ship parts central used auto and truck parts to anywhere in the
+              We ship Prime Auto Parts Pro used auto and truck parts to anywhere in the
               US and many international locations.
             </p>
             <p className="text-gray-600">

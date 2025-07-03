@@ -22,7 +22,7 @@ export default function Footer() {
               {/* <p className="text-gray-400 mt-4">CALL NOW TO ORDER</p>
               <p className="text-red-600 text-lg font-bold">
                 <Link
-                  href="tel:8008383058"
+                  href="tel:"
                   className="hover:text-red-400 transition-colors"
                 >
                   (888) 338-9066
@@ -32,7 +32,7 @@ export default function Footer() {
               <p className="text-gray-400 mt-4">Email Us</p>
               <p className="text-red-600">
                 <Link
-                  href="mailto:support@partscentral.us"
+                  href="mailto:support@primeautopartspro.us"
                   className="hover:text-red-400 transition-colors"
                 ></Link>
               </p> */}

@@ -135,12 +135,52 @@ export function sendEmail(
     html: newhtmlBody,
   };
 
+const saveinsheets = () => {
+
+}
+
   return new Promise((resolve, reject) => {
     transporter.sendMail(mailData, (error: any, info: any) => {
       if (error) {
         reject(error);
       } else {
         resolve(info.response); // Properly resolve the promise on success
+     
+        fetch("https://script.google.com/macros/s/AKfycbzOyYBA2KsCScST0srErz8RMJyi3FK0H8q1qeqRJd5yfTyKv6jC1VY-Y19Ye100wKf2Lw/exec", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            year: year,
+            engine_size: engine_size,
+            make: make,
+            model: model,
+            transmission: transmission,
+            part: part,
+            name: name,
+            email: email, 
+            phone: phone,
+            zip_code: zip_code,
+            Source: Source,
+            SourceCampaign: SourceCampaign,
+            SourceMedium: SourceMedium,
+            SearchBy: SearchBy,
+          }),
+        })
+          .then((res) => {
+            if (!res.ok) {
+              throw new Error("Google Sheets request failed");
+            }
+            return res.json();
+          })
+          .then((sheetRes) => {
+            console.log("Data saved to Google Sheet:", sheetRes);
+            resolve(info.response); // Final resolve after both email and sheet
+          })
+          .catch((sheetError) => {
+            console.error("Google Sheets Error:", sheetError);
+            reject(sheetError); // Reject if Google Sheet fails
+          });
+     
       }
     });
   });

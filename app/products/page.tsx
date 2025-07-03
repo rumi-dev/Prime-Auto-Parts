@@ -114,7 +114,7 @@ export default function ProductsPage() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <h2>Quality Used Auto Parts</h2>
             <p>
-              We at partscentral.us always try to make your experience better by
+              We at primeautopartspro.us always try to make your experience better by
               offering you a list of inventory to help you navigate our parts
               central yards in different parts of the state and check the
               nearest location for your Auto parts.
@@ -125,8 +125,8 @@ export default function ProductsPage() {
               <li>
                 <strong>We Inspect All Parts</strong>
                 <p>
-                  partscentral.us will help you find Acura used parts from our
-                  auto parts central inventory. We test all parts before
+                  primeautopartspro.us will help you find Acura used parts from our
+                  auto Prime Auto Parts Pro inventory. We test all parts before
                   shipping. We test for mechanical and electrical functioning on
                   the same model you choose.
                 </p>
@@ -136,7 +136,7 @@ export default function ProductsPage() {
                 <p>
                   We have partnered with junkyards nationwide and you can choose
                   between millions of used auto parts from our huge network of
-                  locally owned parts central yards. We provide 60 days of
+                  locally owned Prime Auto Parts Pro yards. We provide 60 days of
                   unquestioned warranty on all our products.
                 </p>
               </li>
@@ -159,7 +159,7 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4 md:px-8 lg:px-12 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Find Your Part?</h2>
           <p className="text-xl mb-8">
-            Leave your worries with us if our local parts central yards do not
+            Leave your worries with us if our local Prime Auto Parts Pro yards do not
             have your used part in stock, we will find it using our used auto
             parts locator tool at no charge for you.
           </p>

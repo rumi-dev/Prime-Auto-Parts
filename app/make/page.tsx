@@ -8,37 +8,37 @@ const carMakes = [
     name: "Acura",
     image: "/placeholder.svg",
     description:
-      "We at partscentral.us always try to make your experience better by offering you a list of inventory to help you navigate our parts central",
+      "We at primeautopartspro.us always try to make your experience better by offering you a list of inventory to help you navigate our Prime Auto Parts Pro",
   },
   {
     name: "Audi",
     image: "/placeholder.svg",
     description:
-      "We at partscentral.us always try to make your experience better by offering you a list of inventory to help you navigate our parts central",
+      "We at primeautopartspro.us always try to make your experience better by offering you a list of inventory to help you navigate our Prime Auto Parts Pro",
   },
   {
     name: "BMW",
     image: "/placeholder.svg",
     description:
-      "We at partscentral.us always try to make your experience better by offering you a list of inventory to help you navigate our parts central",
+      "We at primeautopartspro.us always try to make your experience better by offering you a list of inventory to help you navigate our Prime Auto Parts Pro",
   },
   {
     name: "Honda",
     image: "/placeholder.svg",
     description:
-      "We at partscentral.us always try to make your experience better by offering you a list of inventory to help you navigate our parts central",
+      "We at primeautopartspro.us always try to make your experience better by offering you a list of inventory to help you navigate our Prime Auto Parts Pro",
   },
   {
     name: "Ford",
     image: "/placeholder.svg",
     description:
-      "We at partscentral.us always try to make your experience better by offering you a list of inventory to help you navigate our parts central",
+      "We at primeautopartspro.us always try to make your experience better by offering you a list of inventory to help you navigate our Prime Auto Parts Pro",
   },
   {
     name: "Lexus",
     image: "/placeholder.svg",
     description:
-      "We at partscentral.us always try to make your experience better by offering you a list of inventory to help you navigate our parts central",
+      "We at primeautopartspro.us always try to make your experience better by offering you a list of inventory to help you navigate our Prime Auto Parts Pro",
   },
 ];
 

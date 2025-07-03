@@ -84,7 +84,7 @@ export default function AboutPage() {
             <p className="text-lg md:text-xl mb-8">
               We are a one-stop-shop for all your vehicle needs, be it a small
               cranking motor or a truck engine, we have it all. We at
-              partscentral.us guarantee to find best in class fully functioning,
+              primeautopartspro.us guarantee to find best in class fully functioning,
               quality tested and reliable used auto parts for our customers.
             </p>
             {/* <div className="inline-flex items-center bg-blue-600 px-6 py-3 rounded-md">
@@ -108,7 +108,7 @@ export default function AboutPage() {
             <p className="text-lg text-gray-600">
               To provide high-quality, reliable used auto parts while making the
               process convenient and affordable for our customers. We strive to
-              be the most trusted name in the parts central industry.
+              be the most trusted name in the Prime Auto Parts Pro industry.
             </p>
           </div>
 

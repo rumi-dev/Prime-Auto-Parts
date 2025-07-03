@@ -21,8 +21,8 @@ async function getLocations(state: string): Promise<JunkyardLocation[]> {
   return [
     {
       id: "1",
-      name: "Quality Auto parts central",
-      address: "123 parts central Lane",
+      name: "Quality Auto Prime Auto Parts Pro",
+      address: "123 Prime Auto Parts Pro Lane",
       city: "Birmingham",
       state: "Alabama",
       zip: "35201",

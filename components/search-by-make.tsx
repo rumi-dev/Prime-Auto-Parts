@@ -58,7 +58,7 @@ export default function SearchByMake({ page }: SearchByMakeProps) {
         <div className="mx-5 grid grid-cols-4 lg:grid-cols-5 md:grid-cols-5 gap-x-5 lg:gap-x-28 md:gap-x-14 gap-y-5">
           {MAKE_ICONS.map((item, index) => {
             const href =
-              page === "partscentral"
+              page === "primeautopartspro"
                 ? encodeURIComponent(item[1].toLowerCase())
                 : page === "transmissions"
                 ? `used-transmissions`
@@ -75,7 +75,7 @@ export default function SearchByMake({ page }: SearchByMakeProps) {
                     Used {item[1]} Transmissions
                   </span>
                 </>
-              ) : page === "partscentral" ? (
+              ) : page === "primeautopartspro" ? (
                 `${item[1]}`
               ) : page === "engines" ? (
                 `Used ${item[1]} Engines`

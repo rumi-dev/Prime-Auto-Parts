@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
           a damaged part or incorrect part, please do call us immediately to
           prevent you from being charged freight both ways. Do not send/return
           the part(s) or package(s) before receiving an RMA (Return Merchandise
-          Authorizations). All the warranty provided by us (Parts Central) for
+          Authorizations). All the warranty provided by us (Prime Auto Parts Pro) for
           any damaged, incorrect parts will be void after 7 business days,
           regardless of which party is at fault. We are not answerable for lost
           or stolen packages, and all claims for such incidents must be reported

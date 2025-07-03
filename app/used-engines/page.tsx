@@ -6,9 +6,9 @@ import HeroSection from "@/components/hero-section";
 export const metadata = {
   title: "Used Engines for Sale | Used Car Engines for Sale",
   description:
-    "We at Parts Central strategize to provide dependable, superior-quality Used Engines across the United States that entice exciting travel experiences all the time.",
+    "We at Prime Auto Parts Pro strategize to provide dependable, superior-quality Used Engines across the United States that entice exciting travel experiences all the time.",
   alternates: {
-    canonical: "https://partscentral.us/used-engines",
+    canonical: "https://primeautopartspro.us/used-engines",
   },
 };
 
@@ -35,7 +35,7 @@ export default function UsedEnginesPage() {
             Revive Your Vehicle&apos;s Performance: Find Reliable Used Engines
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
-            At Parts Central, your vehicle&apos;s performance will get reborn
+            At Prime Auto Parts Pro, your vehicle&apos;s performance will get reborn
             into a power-saving and reliable used engine for sale. Be it an
             automotive enthusiast, a mechanic, or whatever your reason for
             looking for an inexpensive way to replace an engine, our selection
@@ -47,7 +47,7 @@ export default function UsedEnginesPage() {
             Used engines unlock the very heart of performance.
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
-            At Parts Central, used engines with warranty are, rather, much more
+            At Prime Auto Parts Pro, used engines with warranty are, rather, much more
             than just parts; they&apos;re the heartbeat that beats for your
             unrealized potential. Visualise a powerful engine, whose
             quality&apos;s protected with our seal of standard. Each assembly of
@@ -77,8 +77,8 @@ export default function UsedEnginesPage() {
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
             Determine the value of junkyard engines on sale and the value of the
-            parts central engines available on the market for sale without
-            having to break the bank. Here at Parts Central, we understand the
+            Prime Auto Parts Pro engines available on the market for sale without
+            having to break the bank. Here at Prime Auto Parts Pro, we understand the
             right engine needed in your car, and that is why we&apos;re always
             ready with competitive prices that will not shortchange quality. Our
             engines come from trusted partners and are thoroughly tested for
@@ -105,7 +105,7 @@ export default function UsedEnginesPage() {
           </h2>
           <p className="text-gray-700 text-[17px] mt-4">
             Excellence in customer experience is what we pride ourselves on at
-            Parts Central to meet all of your engine needs. Each one of the
+            Prime Auto Parts Pro to meet all of your engine needs. Each one of the
             qualities and customer satisfaction that we commit to allows every
             one of our sold engines to be a step forward in order to revitalize
             the performance of your car. Take a look through our current product
@@ -115,7 +115,7 @@ export default function UsedEnginesPage() {
           <p className="text-gray-700 text-[17px] mt-4">
             Ready for an engine upgrade? Browse our online inventory of{" "}
             <span className="font-bold">used car engines for sale</span> and
-            find the right one that keeps you running. Let Parts Central take
+            find the right one that keeps you running. Let Prime Auto Parts Pro take
             you through this process and help you procure quality, reliable
             engines to get you back on the road with confidence. Begin your
             drive into the future of performance with the best!
