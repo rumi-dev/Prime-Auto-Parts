@@ -31,10 +31,10 @@ export default function CallToActionSection() {
           <div className="text-xl">
             <span>Call now at </span>
             <Link
-              href="tel:8008383058"
+              href="tel:+18779888045"
               className="text-red-500 font-bold hover:underline"
             >
-              {/* (888) 338-9066 */}
+              (877)-988-8045
             </Link>
             <span>
               {" "}

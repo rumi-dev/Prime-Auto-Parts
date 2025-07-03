@@ -129,8 +129,8 @@ function PrivacyPolicyPopup({
           <h4 className="font-semibold mt-4 mb-2">4. Help & Support</h4>
           <p className="mb-3">
             For assistance, reply <strong>"HELP"</strong> to{" "}
-            <a href="tel:+18008383058" className="text-red-600 hover:underline">
-              1-(888) 338-9066
+            <a href="tel:+18779888045" className="text-red-600 hover:underline">
+              1-(877)-988-8045
             </a>{" "}
             or visit{" "}
             <a
@@ -757,7 +757,7 @@ function HeroSectionContent({
                     Prime Auto Parts Pro related to Product inquiries / Appointment
                     reminders / Billing alerts / Shipment updates. You may reply
                     STOP to opt-out at any time. Reply HELP to{" "}
-                    {/* 1-(888) 338-9066 */}
+                    {/* 1-(877)-988-8045 */}
                     for assistance. Messages and data rates may apply. Message
                     frequency will vary. For more details, visit our{" "}
                     <a

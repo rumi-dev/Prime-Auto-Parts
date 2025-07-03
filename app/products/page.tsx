@@ -75,7 +75,7 @@ export default function ProductsPage() {
                 <div className="mt-4 bg-blue-600 text-white rounded-lg p-4 flex items-center justify-center">
                   <div className="flex items-center">
                     <Phone className="w-6 h-6 mr-2" />
-                    {/* <span className="text-lg font-bold">(888) 338-9066</span> */}
+                    {/* <span className="text-lg font-bold">(877)-988-8045</span> */}
                   </div>
                   <span className="ml-4">Call now to order</span>
                 </div>
@@ -115,8 +115,7 @@ export default function ProductsPage() {
             <h2>Prime Auto Parts Pro</h2>
             <p>
               We at primeautopartspro.us always try to make your experience better by
-              offering you a list of inventory to help you navigate our parts
-              central yards in different parts of the state and check the
+              offering you a list of inventory to help you navigate our prime auto parts pro yards in different parts of the state and check the
               nearest location for your Auto parts.
             </p>
 
@@ -165,7 +164,7 @@ export default function ProductsPage() {
           </p>
           <div className="inline-flex items-center bg-white text-red-600 px-6 py-3 rounded-md font-bold">
             <Phone className="w-5 h-5 mr-2" />
-            {/* Call (888) 338-9066 */}
+            {/* Call (877)-988-8045 */}
           </div>
         </div>
       </section>

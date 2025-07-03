@@ -7,7 +7,7 @@ export default function PhoneIcon() {
         <div className="flex items-center">
           <Phone className="h-8 w-8 mr-3 text-white" />
           <div className="text-white">
-            {/* <div className="text-2xl font-bold">(888) 338-9066</div> */}
+            {/* <div className="text-2xl font-bold">(877)-988-8045</div> */}
             <div className="text-sm">Call now to order</div>
           </div>
         </div>

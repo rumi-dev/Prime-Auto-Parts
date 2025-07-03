@@ -141,7 +141,7 @@ export default function JunkyardSearch() {
       <div className="mt-4 bg-blue-600 text-white rounded-lg p-4 flex items-center justify-center">
         <div className="flex items-center">
           <Phone className="w-5 h-5 mr-2" />
-          {/* <span className="font-bold">Need help? Call (888) 338-9066</span> */}
+          {/* <span className="font-bold">Need help? Call (877)-988-8045</span> */}
         </div>
       </div>
     </div>

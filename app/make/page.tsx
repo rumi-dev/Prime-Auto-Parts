@@ -94,18 +94,18 @@ export default function MakePage() {
               <PartSearch />
 
               {/* Phone section moved directly below the form */}
-              {/* <div className="mt-4 bg-blue-600 text-white rounded-lg p-4 flex items-center justify-center">
+              <div className="mt-4 bg-blue-600 text-white rounded-lg p-4 flex items-center justify-center">
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 mr-2" />
                   <Link
-                    href="tel:8008383058"
+                    href="tel:+18779888045"
                     className="text-red-500 font-bold hover:underline"
                   >
-                    <span className="text-lg font-bold">(888) 338-9066</span>
+                    <span className="text-lg font-bold">(877)-988-8045</span>
                   </Link>
                 </div>
                 <span className="ml-4">Call now to order</span>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

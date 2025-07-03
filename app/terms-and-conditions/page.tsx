@@ -219,7 +219,7 @@ export default function TermsAndConditions() {
               <h3 className="text-xl font-semibold mt-6">5. Help & Support</h3>
               <p>
                 For assistance, reply <strong>"HELP"</strong> to{" "}
-                {/* 1-(888) 338-9066 */}
+                {/* 1-(877)-988-8045 */}
                 or visit{" "}
                 <a
                   href="https://www.primeautopartspro.us/"
@@ -235,7 +235,7 @@ export default function TermsAndConditions() {
               <p>Prime Auto Parts Pro may send messages such as:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
-                  "Hi, this is Zack from Prime Auto Parts Pro. We have the part you're
+                  "Hi, this is Wayne from Prime Auto Parts Pro. We have the part you're
                   looking for in stock:{" "}
                   <strong>2017 DODGE CHALLENGER 2WD MT</strong>."
                 </li>

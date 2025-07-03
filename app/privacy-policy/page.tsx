@@ -54,8 +54,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold mb-4">Overview</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                This site is managed by a third-party service provider of Parts
-                Central LLC (the "Online Store" and collectively with Auto Parts
+                This site is managed by a third-party service provider of Prime Auto Parts Pro LLC (the "Online Store" and collectively with Auto Parts
                 "we" or "us"). We are dedicated to protecting our customer's
                 privacy. Your privacy using the Website located at URL
                 https://www.primeautopartspro.us/ ("the Site") is paramount in that
@@ -608,15 +607,15 @@ export default function PrivacyPolicy() {
                   Unsubscribe from SMS communications by replying{" "}
                   <strong>STOP</strong>
                 </li>
-                {/* <li>
+                <li>
                   Request help by texting <strong>HELP</strong> to{" "}
                   <a
-                    href="tel:+18008383058"
+                    href="tel:+18779888045"
                     className="text-primary hover:underline"
                   >
-                    <strong>1-(888) 338-9066</strong>
+                    <strong>1-(877)-988-8045</strong>
                   </a>
-                </li> */}
+                </li>
               </ul>
 
               <h2>5. SMS Opt-In Agreement</h2>

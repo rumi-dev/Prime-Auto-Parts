@@ -55,17 +55,34 @@ export default function ContactForm() {
     if (validateForm()) {
       setIsSubmitting(true)
 
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500))
+      try {
+        const response = await fetch('/api/contactform', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        })
 
-      setIsSubmitting(false)
-      setIsSuccess(true)
-      setFormData({ name: "", email: "", message: "" })
+        const data = await response.json()
 
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setIsSuccess(false)
-      }, 5000)
+        if (!response.ok) {
+          throw new Error(data.message || 'Something went wrong')
+        }
+
+        setIsSuccess(true)
+        setFormData({ name: "", email: "", message: "" })
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setIsSuccess(false)
+        }, 5000)
+      } catch (error) {
+        console.error('Error submitting form:', error)
+        // You might want to show an error message to the user here
+      } finally {
+        setIsSubmitting(false)
+      }
     }
   }
 
@@ -180,4 +197,3 @@ export default function ContactForm() {
     </div>
   )
 }
-

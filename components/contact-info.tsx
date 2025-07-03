@@ -19,17 +19,17 @@ export default function ContactInfo() {
 
         </div>
 
-        {/* <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center">
           <p className="text-sm mb-2">PHONE NUMBER</p>
           <a
-            href="tel:8008383058"
+            href="tel:+18779888045"
             className="flex items-center hover:underline"
           >
             <Phone className="w-5 h-5 mr-2" />
-            (888) 338-9066
+            (877)-988-8045
           </a>
           For SMS & Product Enquiry, Please call
-        </div> */}
+        </div>
       </div>
     </div>
   );

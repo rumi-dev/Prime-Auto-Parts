@@ -25,7 +25,7 @@ export default function Footer() {
                   href="tel:"
                   className="hover:text-red-400 transition-colors"
                 >
-                  (888) 338-9066
+                  (877)-988-8045
                 </Link>
               </p>
 
@@ -110,14 +110,14 @@ export default function Footer() {
             </h3>
             <div className="space-y-3">
               <p className="text-gray-400">CALL NOW TO ORDER</p>
-              {/* <p className="text-blue-600 text-lg font-bold">
+              <p className="text-blue-600 text-lg font-bold">
                 <Link
-                  href="tel:8008383058"
+                  href="tel:+18779888045"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  (888) 338-9066
+                  (877)-988-8045
                 </Link>
-              </p> */}
+              </p>
 
               <p className="text-gray-400 mt-4">Email Us</p>
               <p className="text-blue-600">

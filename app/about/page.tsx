@@ -93,7 +93,7 @@ export default function AboutPage() {
                 href="tel:"
                 className="text-red-500 font-bold hover:underline"
               >
-                <span className="font-bold">Call now at (888) 338-9066</span>
+                <span className="font-bold">Call now at </span>
               </Link>
             </div> */}
           </div>
@@ -238,7 +238,7 @@ export default function AboutPage() {
           </p>
           {/* <div className="inline-flex items-center bg-white text-blue-600 px-6 py-3 rounded-md font-bold">
             <Phone className="w-5 h-5 mr-2" />
-            Call (888) 338-9066
+            Call 
           </div> */}
         </div>
       </section>

@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
         <p>
           {" "}
           {/* You can return or cancel your order by calling our customer service */}
-          {/* desk at (888) 338-9066. Note all returns and cancellations require a */}
+          {/* desk at (877)-988-8045. Note all returns and cancellations require a */}
           {/* prior authorization and are subjected to a 30% restocking fee. The */}
           {/* return address where the part needs to be returned is{" "} */}
           {/* <b>1403 Kirts BlvdTroy, MI 48084, USA. </b> */}
@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
           shipping. No returns without prior authorization from the Supplier
           (see Contact Us page). You need to contact a customer service
           representative to arrange for a Return Merchandise Authorization form:
-          {/* Call (888) 338-9066 Press 2 for "Returns" (open Monday-Friday 8 am – 6 */}
+          {/* Call (877)-988-8045 Press 2 for "Returns" (open Monday-Friday 8 am – 6 */}
           {/* Reference your 5-digit Order Number.{" "} */}
         </p>{" "}
         <br />
@@ -72,8 +72,8 @@ export default function PrivacyPolicy() {
           for the initial cost of the original auto part (minus the initial
           shipping cost) If you have any questions about the shipping back of
           the original part, please contact your personal sales representative
-          or the customer service team at (888) 338-9066. Press 2 for "Returns */}
-          {/* Or email primeautopartspro@gmail.com{" "} */}
+          or the customer service team at (877)-988-8045. Press 2 for "Returns" 
+          Or email primeautopartspro@gmail.com
         </p>{" "}
         <br />
         <strong> Disclaimer </strong>
@@ -97,7 +97,7 @@ export default function PrivacyPolicy() {
         </p>{" "}
         <br />
         <strong> Customer Service </strong>
-        {/* <p> Phone: (888) 338-9066 </p> <br /> */}
+        {/* <p> Phone: (877)-988-8045 </p> <br /> */}
         <p> Email: primeautopartspro@gmail.com </p> <br />
         <strong> Operation Hours: </strong> <br />
         <p> Mon – Friday (8:00 am – 6:00 pm EST) </p> <br />
