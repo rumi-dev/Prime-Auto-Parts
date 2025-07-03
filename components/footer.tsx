@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-6 relative inline-block">
-              Prime Auto Parts Pro LLC
+            <h3 className="text-lg text-center font-bold mb-6 relative inline-block">
+              Prime Auto Parts Pro <br/> <p className="text-gray-300 ">DBA</p>  All Auto And Truck Parts Inc
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></span>
             </h3>
             <div className="space-y-3">
@@ -49,57 +49,29 @@ export default function Footer() {
               INFORMATION
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></span>
             </h3>
+            <div >
             <ul className="space-y-3">
-              <li>
-                <Link
-                  href="/about"
-                  className="text-blue-600 hover:text-blue-400 transition-colors"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-blue-600 hover:text-blue-400 transition-colors"
-                >
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/privacy-policy"
-                  className="text-blue-600 hover:text-blue-400 transition-colors"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/shipping-policy"
-                  className="text-blue-600 hover:text-blue-400 transition-colors"
-                >
-                  Shipping Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/refund-policy"
-                  className="text-blue-600 hover:text-blue-400 transition-colors"
-                >
-                  Refund/Return Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/terms-and-conditions"
-                  className="text-blue-600 hover:text-blue-400 transition-colors"
-                >
-                  Terms and Conditions
-                </Link>
-              </li>
+              {[
+                { text: 'About Us', href: '/about' },
+                { text: 'Contact Us', href: '/contact' },
+                { text: 'Privacy Policy', href: '/privacy-policy' },
+                { text: 'Shipping Policy', href: '/shipping-policy' },
+                { text: 'Refund/Return Policy', href: '/refund-policy' },
+                { text: 'Terms and Conditions', href: '/terms-and-conditions' },
+              ].map((link, index) => (
+                <li key={index}>
+                  <Link
+                    href={link.href}
+                    className="text-blue-600 hover:text-blue-400 transition-colors"
+                  >
+                    {link.text}
+                  </Link>
+                </li>
+              ))}
             </ul>
+
+           
+            </div>
           </div>
 
           {/* Have Questions Section */}
@@ -128,6 +100,9 @@ export default function Footer() {
                   primeautopartspro@gmail.com
                 </Link>
               </p>
+
+              <p className=" pt-10">DBA</p>
+              All Auto And Truck Parts Inc
             </div>
           </div>
           {/* Social Media Section */}
@@ -174,7 +149,7 @@ export default function Footer() {
       <div className="border-t border-gray-800 py-6 w-full">
         <div className="container text-center text-gray-400">
           <p>
-            &copy; {new Date().getFullYear()} Prime Auto Parts Pro LLC - All Rights
+            &copy; {new Date().getFullYear()} Prime Auto Parts Pro - All Rights
             Reserved
           </p>
         </div>
