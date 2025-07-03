@@ -8,12 +8,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg text-center font-bold mb-6 relative inline-block">
-              Prime Auto Parts Pro <br/> <p className="text-gray-300 ">DBA</p>  All Auto And Truck Parts Inc
-              <span className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></span>
+            All Auto And Truck Parts Inc  <br /> <p className="text-gray-400 ">DBA</p> 
+              Prime Auto Parts Pro
+
+               
+              <span className="absolute -bottom-2 left-0 w-full h-1 bg-blue-600"></span>
             </h3>
             <div className="space-y-3">
               <p className="text-gray-300">
-              2952 Stringham Way, Dublin, 
+                2952 Stringham Way, Dublin,
                 <br />
                 CA 94568
                 <br />
@@ -47,30 +50,30 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-6 relative inline-block">
               INFORMATION
-              <span className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></span>
+              <span className="absolute -bottom-2 left-0 w-full h-1 bg-blue-600"></span>
             </h3>
             <div >
-            <ul className="space-y-3">
-              {[
-                { text: 'About Us', href: '/about' },
-                { text: 'Contact Us', href: '/contact' },
-                { text: 'Privacy Policy', href: '/privacy-policy' },
-                { text: 'Shipping Policy', href: '/shipping-policy' },
-                { text: 'Refund/Return Policy', href: '/refund-policy' },
-                { text: 'Terms and Conditions', href: '/terms-and-conditions' },
-              ].map((link, index) => (
-                <li key={index}>
-                  <Link
-                    href={link.href}
-                    className="text-blue-600 hover:text-blue-400 transition-colors"
-                  >
-                    {link.text}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <ul className="space-y-3">
+                {[
+                  { text: 'About Us', href: '/about' },
+                  { text: 'Contact Us', href: '/contact' },
+                  { text: 'Privacy Policy', href: '/privacy-policy' },
+                  { text: 'Shipping Policy', href: '/shipping-policy' },
+                  { text: 'Refund/Return Policy', href: '/refund-policy' },
+                  { text: 'Terms and Conditions', href: '/terms-and-conditions' },
+                ].map((link, index) => (
+                  <li key={index}>
+                    <Link
+                      href={link.href}
+                      className="text-blue-600 hover:text-blue-400 transition-colors"
+                    >
+                      {link.text}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
 
-           
+
             </div>
           </div>
 
@@ -78,7 +81,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-6 relative inline-block">
               HAVE QUESTIONS?
-              <span className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></span>
+              <span className="absolute -bottom-2 left-0 w-full h-1 bg-blue-600"></span>
             </h3>
             <div className="space-y-3">
               <p className="text-gray-400">CALL NOW TO ORDER</p>
@@ -87,7 +90,15 @@ export default function Footer() {
                   href="tel:+18779888045"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  (877)-988-8045
+                 Toll free -  +1 (877)-988-8045
+                </Link>
+              </p>
+              <p className="text-blue-600 text-lg font-bold">
+                <Link
+                  href="tel:+19253937650"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                 Direct line +1(925)393-7650
                 </Link>
               </p>
 
@@ -101,15 +112,40 @@ export default function Footer() {
                 </Link>
               </p>
 
-              <p className=" pt-10">DBA</p>
-              All Auto And Truck Parts Inc
+              <p className=" pt-10 text-gray-400">DBA</p>
+              Prime Auto Parts Pro
             </div>
           </div>
+
+ {/* All Auto parts section */}
+ <div>
+            <h3 className="text-lg font-bold mb-6 relative inline-block">
+            All Auto And Truck Parts Inc
+              <span className="absolute -bottom-2 left-0 w-full h-1 bg-blue-600"></span>
+            </h3>
+            <div className="space-y-3">
+              {/* <p className="text-gray-400">CALL NOW TO ORDER</p> */}
+             
+
+              <p className="text-gray-400 mt-4">Email Us</p>
+              <p className="text-blue-600">
+                <Link
+                  href="mailto:allautoandtruckparts.ca@gmail.com"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                 allautoandtruckparts.ca@gmail.com
+                </Link>
+              </p>
+
+              
+            </div>
+          </div>
+
           {/* Social Media Section */}
           <div>
             <h3 className="text-xl font-bold mb-6 relative inline-block">
               SOCIAL MEDIA
-              <span className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></span>
+              <span className="absolute -bottom-2 left-0 w-full h-1 bg-blue-600"></span>
             </h3>
             <div className="flex space-x-4 mt-4">
               <Link
