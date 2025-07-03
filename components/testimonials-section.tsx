@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    text: "Quality Auto Parts is the only company in the USA that was able to get me the exact OEM part for my Mercedes. This company is the only one that actually checked the exact part number for an exact replacement. I went through numerous companies and no one can guarantee the part number except Quality Auto Parts. I'm completely satisfied with the customer service, the part being the exact fit and the delivery time. I will purchase from them again if needed in the future",
-    name: "Terry",
-    location: "MT ULLA, NC",
+    text: "Prime Auto Parts Pro is the only company in the USA that was able to get me the exact OEM part for my Mercedes. This company is the only one that actually checked the exact part number for an exact replacement. I went through numerous companies and no one can guarantee the part number except Quality Auto Parts. I'm completely satisfied with the customer service, the part being the exact fit and the delivery time. I will purchase from them again if needed in the future",
+    name: "John",
+    location: "Dublin, CA",
   },
   // More testimonials could be added here
 ];

@@ -112,7 +112,7 @@ export default function ProductsPage() {
       <section className="py-12">
         <div className="container mx-auto px-4 md:px-8 lg:px-12">
           <div className="max-w-4xl mx-auto prose prose-lg">
-            <h2>Quality Used Auto Parts</h2>
+            <h2>Prime Auto Parts Pro</h2>
             <p>
               We at primeautopartspro.us always try to make your experience better by
               offering you a list of inventory to help you navigate our parts

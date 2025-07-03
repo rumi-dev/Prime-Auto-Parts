@@ -60,7 +60,7 @@ export default function UsedAutoPartsPage() {
           single used part we supply has been comprehensively checked to perform
           as you would expect. Whether it is an engine or any other component,
           big or small, rest assured we do the job right with{" "}
-          <span className="font-bold">quality used auto parts.</span>
+          <span className="font-bold"> Prime Auto Parts Pro.</span>
         </p>
         <p className="text-gray-700 text-[17px] mt-8">
           2. Unparalleled Convenience
