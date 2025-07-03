@@ -22,8 +22,7 @@ export default function PrivacyPolicy() {
         <br />
         <p>
           {" "}
-          The shipping or delivery timeframes provided on our website (Parts
-          Central){" "}
+          The shipping or delivery timeframes provided on our website (Prime Auto Parts Pro){" "}
         </p>{" "}
         <br />
         <p>
