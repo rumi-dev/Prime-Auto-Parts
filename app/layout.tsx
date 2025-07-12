@@ -25,6 +25,31 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17282900440"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17282900440');
+          `}
+        </Script>
+
+        <!-- Google tag (gtag.js) from my own gtag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NKDK9ZQHTR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NKDK9ZQHTR');
+</script>
+      </head>
+
       <body className={inter.className}>
         <Header />
         <main>{children}</main>
@@ -34,6 +59,7 @@ export default function RootLayout({
         </div>
         <Analytics />
       </body>
+
     </html>
   );
 }

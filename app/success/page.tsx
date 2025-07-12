@@ -1,9 +1,15 @@
 import Link from "next/link";
+import { useEffect } from 'react';
 import Image from "next/image";
 import { CheckCircle, ArrowLeft, Phone } from "lucide-react";
 import { PHONE_NUMBER, CALL_TO } from "@/app/config";
 
 export default function SuccessPage() {
+   useEffect(() => {
+    window.gtag?.('event', 'conversion', {
+      send_to: 'AW-17282900440/zm7oCK6O9OYaENjDkLFA',
+    });
+  }, []);
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
